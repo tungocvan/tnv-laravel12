@@ -58,4 +58,6 @@ git branch -M main
 git remote add origin git@github.com:tungocvan/tnv-laravel12.git
 git push -u origin main
 
+// sau đó cấu hình đăng nhập bằng gmail
+
 
