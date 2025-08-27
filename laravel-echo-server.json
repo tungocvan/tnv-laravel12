@@ -1,0 +1,38 @@
+{
+	"authHost": "https://adminlt.laravel.tk",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [
+		{
+			"appId": "347845",
+			"key": "kji6al41jtiilhxgzueh",
+			"secret": "some-secret"
+		  }
+	],
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": false,
+	"host": "adminlt.laravel.tk", 
+	"port": 6001,
+	"protocol": "https",
+	"socketio": {},
+	"secureOptions": 67108864,
+	"sslCertPath": "/etc/.cert/laravel.tk-cert.pem",
+	"sslKeyPath": "/etc/.cert/laravel.tk-key.pem",
+	"sslCertChainPath": "",
+	"sslPassphrase": "",
+	"subscribers": {
+		"http": true,
+		"redis": true
+	},
+	"apiOriginAllow": {
+		"allowCors": true,
+		"allowOrigin": "*",
+		"allowMethods": "GET, POST",
+		"allowHeaders": "Origin, Content-Type, X-Auth-Token, Authorization, X-Requested-With"
+	}
+}

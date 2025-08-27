@@ -1,0 +1,10 @@
+/storage/framework
+/storage/logs
+/storage/app/public/livewire-tmp/
+/public/build
+/node_modules
+/public/hot
+/public/storage
+/vendor
+
+
