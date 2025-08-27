@@ -49,3 +49,13 @@ nginx-domain.sh tnv.laravel.tk
 
 // tạo kho mới trên github
 rm -rf .git
+git init
+git config --global --add safe.directory /var/www/tnv
+sao đó lên git tạo kho
+git add .
+git commit -m "firt project tnv"
+git branch -M main
+git remote add origin git@github.com:tungocvan/tnv-laravel12.git
+git push -u origin main
+
+
